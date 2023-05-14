@@ -65,6 +65,6 @@ def scrape_docs(url, base_url, visited=set()):
 
 if __name__ == "__main__":
     #url = "https://modal.com/docs/guide"
-    #url for Reference. Replace url with:
+    #url for Reference. Replace url val with your url.
     url = "https://modal.com/docs/reference"
     scrape_docs(url, url)
